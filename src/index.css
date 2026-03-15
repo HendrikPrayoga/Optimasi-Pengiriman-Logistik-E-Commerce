@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(
+      circle at 12% 10%,
+      rgba(254, 215, 170, 0.45),
+      transparent 34%
+    ),
+    radial-gradient(
+      circle at 85% 4%,
+      rgba(153, 246, 228, 0.42),
+      transparent 36%
+    ),
+    linear-gradient(168deg, #f8faf9 0%, #edf6f6 54%, #faf5eb 100%);
+  color: #1f2937;
+  font:
+    500 16px/1.56 "Plus Jakarta Sans",
+    sans-serif;
+  letter-spacing: 0.01em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
