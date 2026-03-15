@@ -317,17 +317,22 @@ function App() {
       >
         <p className="eyebrow">
           <Sparkles size={16} />
-          Data Science Project Dashboard
+          Tugas Akhir · Strategi Algoritma
         </p>
-        <h1>Interactive Analytics Command Center</h1>
+        <h1>Optimasi Pengiriman Logistik pada E-Commerce</h1>
+        <p className="hero-subtitle">
+          Menggunakan Algoritma Dynamic Programming, Branch and Bound, dan
+          Greedy
+        </p>
         <p className="hero-copy">
-          Tampilkan project, benchmark algoritma, dan dampak bisnis dalam satu
-          dashboard project yang hidup dan siap publish.
+          Perbandingan performa tiga pendekatan algoritma optimasi dalam
+          memecahkan masalah pengiriman logistik e-commerce — diukur dari waktu
+          eksekusi, akurasi solusi, dan skalabilitas dataset.
         </p>
         <div className="hero-meta">
           <span>
             <BrainCircuit size={16} />
-            Fokus pada analisis, eksperimen, dan storytelling
+            Dynamic Programming · Branch and Bound · Greedy
           </span>
         </div>
       </Motion.header>

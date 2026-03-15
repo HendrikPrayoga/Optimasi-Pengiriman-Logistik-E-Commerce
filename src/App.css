@@ -106,10 +106,18 @@
 }
 
 .hero-block h1 {
-  margin: 18px 0 10px;
-  max-width: 18ch;
-  font: 760 clamp(2rem, 5vw, 3.7rem) / 1.02 var(--font-heading);
+  margin: 18px 0 8px;
+  max-width: 24ch;
+  font: 760 clamp(1.8rem, 4.5vw, 3.2rem) / 1.06 var(--font-heading);
   letter-spacing: -0.03em;
+}
+
+.hero-subtitle {
+  margin: 0 0 14px;
+  max-width: 52ch;
+  font: 600 clamp(0.95rem, 2vw, 1.15rem) / 1.4 var(--font-heading);
+  color: rgba(248, 250, 252, 0.75);
+  letter-spacing: 0.01em;
 }
 
 .hero-copy {
